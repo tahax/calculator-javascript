@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" />
+    <title>calculator</title>
+  </head>
+  <body>
+    <section class="section-one d-flex justify-content-center">
+      <header class="header-taha position-fixed d-flex align-items-center justify-content-between">
+        <div class="icon-box history-js">
+          <img src="./history.png" alt="" class="icons">
+        </div>
+        <div class="icon-box calc-btn-js">
+          <img src="./menu.png" alt="" class="icons">
+        </div>
+      </header>
+      <div class="col-12 col-md-4 col-lg-4 history-parent">
+        <div class="row">
+          <div class="history-box">
+            
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-4 col-lg-4">
+        <div class="row">
+          <div class="calculator-taha">
+            <input type="text" value="" class="Calculations-taha">
+            <div type="text" class="result-taha">0</div>
+            <div class="calculator-buttons">
+              <div class="first-row">
+                <input type="button" name="(" value="(" class="parantezyek design bg-gray" />
+                <input type="button" name=")" value=")" class="parantez design bg-gray" />
+                <input type="button" name="**" value="^" class="operator design bg-gray" />
+                <input type="button" name="Math.sqrt(" value="&radic;" class="mathes design bg-orang" />
+              </div>
+              <div class="second-row">
+                <input type="button" name="7" value="7" class="global design" />
+                <input type="button" name="8" value="8" class="global design" />
+                <input type="button" name="9" value="9" class="global design" />
+                <input type="button" name="/" value="&#247;" class="operator design bg-orang" />
+              </div>
+              <div class="third-row">
+                <input type="button" name="4" value="4" class="global design" />
+                <input type="button" name="5" value="5" class="global design" />
+                <input type="button" name="6" value="6" class="global design" />
+                <input type="button" name="*" value="&#215;" class="operator design bg-orang" />
+              </div>
+              <div class="fourth-row">
+                <input type="button" name="1" value="1" class="global design" />
+                <input type="button" name="2" value="2" class="global design" />
+                <input type="button" name="3" value="3" class="global design" />
+                <input type="button" name="-" value="-" class="operator design bg-orang" />
+              </div>
+              <div class="fourth-row">
+                <input type="button" name="0" value="0" class="global zeroo design" />
+                <input type="button" name="." value="." class="dote design" />
+                <input type="button" name="+" value="+" class="operator grey design bg-orang" />
+              </div>
+              <div class="fourth-row">
+                <input
+                    type="button"
+                    name=""
+                    value="C"
+                    class="delete red white-text design bg-gray"
+                  />
+                  <input
+                    type="button"
+                    name=""
+                    value="="
+                    class="mosavi green white-text zeroo design bg-gray"
+                  />
+                  <input type="button" name="%" value="%" class="operator design bg-orang" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="d-none d-md-flex col-12 col-md-4 col-lg-4">
+        <div class="row">
+          
+        </div>
+      </div> -->
+    </section>
+  </body>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+  <script src="app.js"></script>
+</html>
